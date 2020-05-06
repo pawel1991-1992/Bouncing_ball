@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Menu()
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=void\ NowaGra()
+comment4.params=
+comment4.target=void\ CloseMenu()
+comment5.params=
+comment5.target=void\ CloseGame()
+numComments=6
