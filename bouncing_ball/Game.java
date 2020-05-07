@@ -1,3 +1,5 @@
+package bouncing_ball;
+
 import javax.swing.JPanel;
 import javax.swing.Timer;
 import java.awt.Graphics;
@@ -12,13 +14,13 @@ import java.awt.geom.Ellipse2D;
 import javax.swing.JOptionPane;
 
 /**
- * Write a description of class second here.
+ * Write a description of class Game here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author pawel1991-1992
+ * @version V1.0.1
  */
 @SuppressWarnings("serial")
-public class second extends JPanel implements ActionListener, MouseListener,MouseMotionListener
+public class Game extends JPanel implements ActionListener, MouseListener,MouseMotionListener
 {
     Timer t = new Timer(5, this);
     double x=0,y=0,velX=2,velY=2;
@@ -29,7 +31,7 @@ public class second extends JPanel implements ActionListener, MouseListener,Mous
     
     
     
-    public second()
+    public Game()
     {
         addMouseListener(this);
         addMouseMotionListener(this);

@@ -1,3 +1,6 @@
+package bouncing_ball;
+
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JMenuBar;
@@ -8,10 +11,10 @@ import java.awt.event.ActionEvent;
 import javax.swing.Box;
 
 /**
- * Write a description of class Macheads here.
+ * Write a description of class Menu here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author pawel1991-1992 
+ * @version V1.0.1
  */
 @SuppressWarnings("serial")
 public class Menu extends JFrame implements ActionListener
@@ -20,7 +23,7 @@ public class Menu extends JFrame implements ActionListener
     
     JFrame f1 = new JFrame();
     JFrame f2 = new JFrame();
-    second s = new second();
+    Game s = new Game();
     int odp;
 
     JMenuBar menuBar;
