@@ -46,15 +46,15 @@ public class Menu extends JFrame implements ActionListener
         menuMenu = new JMenu("Menu");
         menuPomoc = new JMenu("Pomoc");
         
-        mNowaGra = new JMenuItem("Nowa gra");
+        mNowaGra = new JMenuItem("New Game");
         mNowaGra.addActionListener(this);
         mPauza = new JMenuItem("Pauza");
         mPauza.addActionListener(this);
-        mResume = new JMenuItem("Wznów");
+        mResume = new JMenuItem("Resume");
         mResume.addActionListener(this);
-        mExit = new JMenuItem("Wyjście");
+        mExit = new JMenuItem("Exit");
         mExit.addActionListener(this);
-        mInstrukcja = new JMenuItem("Instrukcja");
+        mInstrukcja = new JMenuItem("Instructions");
         mInstrukcja.addActionListener(this);
         
         menuMenu.add(mNowaGra);
@@ -75,7 +75,7 @@ public class Menu extends JFrame implements ActionListener
 
         if(z==mNowaGra)
         {
-            odp = JOptionPane.showConfirmDialog(null, "Level 1", "Gra", JOptionPane.DEFAULT_OPTION);
+            odp = JOptionPane.showConfirmDialog(null, "Level 1", "Game", JOptionPane.DEFAULT_OPTION);
             if(odp==JOptionPane.OK_OPTION)
             {
             NowaGra();
@@ -102,7 +102,10 @@ public class Menu extends JFrame implements ActionListener
         }
         if(z==mInstrukcja)
         {
-            JOptionPane.showMessageDialog(null,"Gra polega na odbijaniu piłki belką znajdującą się u dołu ekranu. Możemy nią sterować \n lewym przyciskiem myszy - przeciągamy nim  w w płaszczyźnie poziomiej belkę w kierunku jakim chcemy.\nNową Grę zaczynamy opcją w Menu, do przebycia jest 10 poziomów :-)","Instrukcja",JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"The game consists in bouncing a ball by a bar placed at the bottom of the screen.\r\n" + 
+            		"We can controll the bar with left button of the mouse - we can drag the bar in horizontal directions. \r\n" + 
+            		"In the Menu, with an option \"New Game\" we can start the game, to beat there are 10 levels. \r\n" + 
+            		"Good luck :-)","Instructions",JOptionPane.INFORMATION_MESSAGE);
         }
     }
     
@@ -119,7 +122,7 @@ public class Menu extends JFrame implements ActionListener
             f2.add(s);
             f2.setSize(800,600);
             f2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            f2.setTitle("Moving Ball");
+            f2.setTitle("Bouncing Ball");
             f2.setVisible(true);
             f2.setJMenuBar(menuBar);
             s.x=0;

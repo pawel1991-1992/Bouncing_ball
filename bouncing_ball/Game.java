@@ -69,7 +69,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=3;
                  velY=3;
-                 JOptionPane.showConfirmDialog(null, "Level 2", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 2", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==10)
              {
@@ -77,7 +77,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=4;
                  velY=4;
-                 JOptionPane.showConfirmDialog(null, "Level 3", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 3", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==18)
              {
@@ -85,7 +85,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=5;
                  velY=5;
-                 JOptionPane.showConfirmDialog(null, "Level 4", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 4", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==28)
              {
@@ -93,7 +93,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=6;
                  velY=6;
-                 JOptionPane.showConfirmDialog(null, "Level 5", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 5", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==40)
              {
@@ -101,7 +101,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=7;
                  velY=7;
-                 JOptionPane.showConfirmDialog(null, "Level 6", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 6", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==54)
              {
@@ -109,7 +109,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=8;
                  velY=8;
-                 JOptionPane.showConfirmDialog(null, "Level 7", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 7", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==70)
              {
@@ -117,7 +117,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=9;
                  velY=9;
-                 JOptionPane.showConfirmDialog(null, "Level 8", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 8", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==98)
              {
@@ -125,7 +125,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=10;
                  velY=10;
-                 JOptionPane.showConfirmDialog(null, "Level 9", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 9", "Game", JOptionPane.DEFAULT_OPTION);
              }
              else if(zliczak==118)
              {
@@ -133,13 +133,13 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                  y=0;
                  velX=11;
                  velY=11;
-                 JOptionPane.showConfirmDialog(null, "Level 10", "Gra", JOptionPane.DEFAULT_OPTION);
+                 JOptionPane.showConfirmDialog(null, "Level 10", "Game", JOptionPane.DEFAULT_OPTION);
              }
             }
         }
         if(y>480)
             {
-               ans=JOptionPane.showConfirmDialog(null, "GAME OVER \n Chcesz rozpocząć grę od nowa?", "Gra", JOptionPane.YES_NO_OPTION);
+               ans=JOptionPane.showConfirmDialog(null, "GAME OVER \n Do you want to start from the beginning ?", "Game", JOptionPane.YES_NO_OPTION);
                y=0;
                if(ans==JOptionPane.YES_OPTION)
                {
@@ -151,7 +151,7 @@ public class Game extends JPanel implements ActionListener, MouseListener,MouseM
                    velX=2;
                    velY=2;
                    zliczak=0;
-                   JOptionPane.showConfirmDialog(null, "Level 1", "Gra", JOptionPane.DEFAULT_OPTION);
+                   JOptionPane.showConfirmDialog(null, "Level 1", "Game", JOptionPane.DEFAULT_OPTION);
                }
                else
                {
