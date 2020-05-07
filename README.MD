@@ -11,7 +11,7 @@ How you see there is the ball and the bar on the screen. An user uses mouse to d
 
 ![Bouncing_ball_manual](/github_images/Bouncing_ball_manual.jpg)
 
-In the help option user can find such an instructions explaining rules of the game 
+In the help option user can find such some instructions explaining rules of the game 
 
 ![Bouncing_ball_menu](/github_images/Bouncing_ball_menu.jpg)
 
@@ -21,8 +21,8 @@ Here's how do options look in the menu - four of them
 ## Features
 
 * Simple Menu with four options - Start, Restart and Exit
-* interactive cells that wait for mouse's click to receive chosen letter by user
-* when crossword is completed with correct headwords, program screens a picture-gift as an award
+* Instructions explaining how to play
+* Clear communitacion with the user with help of dialog option windows 
 
 
 ## Author
