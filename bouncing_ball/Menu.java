@@ -39,7 +39,7 @@ public class Menu extends JFrame implements ActionListener
         f1.setVisible(true);
         f1.setSize(800,600);
         f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f1.setTitle("Moving Ball");
+        f1.setTitle("Bouncing Ball");
         
         
         menuBar = new JMenuBar();
