@@ -1,18 +1,11 @@
 import javax.swing.JFrame;
-import java.util.Observer;
 import javax.swing.JOptionPane;
-import javax.swing.JLabel;
 import javax.swing.JTextField;
-import javax.swing.JPanel;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.JOptionPane;
-import java.awt.Dimension;
-import java.util.Observable;
-import java.util.Observer;
 import javax.swing.Box;
 
 /**
@@ -21,6 +14,7 @@ import javax.swing.Box;
  * @author (your name) 
  * @version (a version number or a date)
  */
+@SuppressWarnings("serial")
 public class Menu extends JFrame implements ActionListener
 {
     
@@ -33,7 +27,6 @@ public class Menu extends JFrame implements ActionListener
     JMenuBar menuBar;
     JMenu menuMenu, menuPomoc;
     JMenuItem mNowaGra, mPauza, mResume, mExit, mInstrukcja;
-    private static JTextField display;
     
     
     
@@ -114,6 +107,7 @@ public class Menu extends JFrame implements ActionListener
     public static void main(String args[])
     {
         Menu appMenu = new Menu();
+        appMenu.setVisible(false);
         
         
     }
